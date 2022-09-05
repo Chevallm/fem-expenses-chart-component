@@ -175,3 +175,15 @@ html, body {
     height: 1px;
   }
 }
+
+@media only screen and (min-width: 768px) {
+  .balance-header,
+  .informations {
+    max-width: 50%;
+    width: 100%;
+  }
+
+  .expenses-chart-component {
+    align-items: center;
+  }
+}
